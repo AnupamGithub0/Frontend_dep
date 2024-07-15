@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "music-album",
+    "builds": [
+      { "src": "Client", "use": "@vercel/static-build" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/Client/index.html" }
+    ]
+  }
+  
